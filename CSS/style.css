@@ -122,6 +122,7 @@ header{
 #current-friend-photo > img{
     width: 100%;
 }
+
 /*The right side-bar keep track of the functionality icons */
 #right-side{
     background-color: cadetblue;
