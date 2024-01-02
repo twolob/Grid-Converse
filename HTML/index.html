@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="container">
@@ -127,12 +128,24 @@
                 </div>
                 <nav>
                     <ul id="nav-items">
-                        <li class="nav-lists" id="seach-chat"></li>
-                        <li class="nav-lists" id="call-phone"></li>
-                        <li class="nav-lists" id="video-call"></li>
-                        <li class="nav-lists" id="option"></li>
-                        <li class="nav-lists" id="thems"></li>
-                        <li class="nav-lists" id="light-mode"></li>
+                        <li class="nav-lists" id="search-chat">
+                            <a href="#"><img title="Search" src="/Images/magnifying-glass.png" alt=""></a>
+                        </li>
+                        <li class="nav-lists" id="call-phone">
+                            <a href="#"><img title="Voice call" src="/Images/telephone.png" alt=""></a>
+                        </li>
+                        <li class="nav-lists" id="video-call">
+                            <a href="#"><img title="Video call" src="/Images/cam-recorder.png" alt=""></a>
+                        </li>
+                        <li class="nav-lists" id="option">
+                            <a href="#"><img title="Options" src="/Images/options.png" alt=""></a>
+                        </li>
+                        <li class="nav-lists" id="themes">
+                            <a href="#"><img title="Themes" src="/Images/themes.png" alt=""></a>
+                        </li>
+                        <li class="nav-lists" id="light-mode">
+                            <a href="#"><img title="Light mode" src="/Images/night-mode.png" alt=""></a>
+                        </li>
                     </ul>
                 </nav>
             </header>
@@ -141,31 +154,39 @@
             </section>
         </main>
         <aside id="right-side">
-            <div class="aside-items">
-                <img src="/Images/logo2.png" alt="logo">
+            <div id="upper-section">
+                <div class="right-aside-logo">
+                    <img src="/Images/logo2.png" alt="logo">
+                </div>
+                <div class="right-aside-items1">
+                    <ul>
+                        <li class="right-side-list">
+                            <a href="#"><img src="/Images/user.png" alt="profile-icon"></a>
+                        </li>
+                        <li class="right-side-list">
+                            <a href="#"><img src="/Images/chat-icon.png" alt="message-icon"></a>
+                        </li>
+                        <li class="right-side-list">
+                            <a href="#"><img src="/Images/contact.png" alt="phonebook-icon"></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="right-aside-items">
-                <img src="" alt="profile-icon">
-            </div>
-            <div class="right-aside-items">
-                <img src="" alt="message-icon">
-            </div>
-            <div class="right-aside-items">
-                <img src="" alt="phonebook-icon">
-            </div>
-            <div class="right-aside-items">
-                <img src="" alt="stared-message-icon">
-                <p id="unread-message">(0)</p>
-            </div>
-            <div class="right-aside-items">
-                <img src="" alt="archived-chat-icon">
-            </div>
-            <div class="right-aside-items">
-                <img src="" alt="setting-icon">
-            </div>
-            <div class="right-aside-items">
-                <img src="" alt="user profile">
-            </div>
+            <d class="lower-section">
+                <div class="right-aside-items2">
+                    <img src="" alt="stared-message-icon">
+                    <p id="unread-message">(0)</p>
+                </div>
+                <div class="right-aside-items">
+                    <img src="" alt="archived-chat-icon">
+                </div>
+                <div class="right-aside-items">
+                    <img src="" alt="setting-icon">
+                </div>
+                <div class="right-aside-items">
+                    <img src="" alt="user profile">
+                </div>
+            </d>
         </aside>
     </div>
 </body>
