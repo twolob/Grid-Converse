@@ -170,7 +170,7 @@ nav > #nav-items{
     justify-content: space-between;
     align-items: center;
 }
-#upper-section{
+#upper-section, #lower-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,18 +182,29 @@ nav > #nav-items{
 #upper-section > .right-aside-logo > img{
     width: 100%;
 }
-.right-aside-items1 > ul{
+.right-aside-items1 > ul, #lower-section > ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.right-aside-items1 > ul > .right-side-list{
+.right-aside-items1 > ul > .right-side-list, #lower-section > ul > .right-side-list{
     width: 35px;
     list-style: none;
     padding: 20px 0px;
-    margin-right: 50px;
+    margin-right: 40px;
 }
-.right-aside-items1 > ul > .right-side-list > a > img{
+.right-aside-items1 > ul > .right-side-list > a > img, #lower-section > ul > .right-side-list > a > img{
     width: 100%;
+}
+.message-box{
+    display: flex;
+}
+.message-box > #unread-message > p{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(9, 19, 10);
+    position: absolute;
+    left: 64px;
+    top: 159px;
 }
