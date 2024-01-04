@@ -208,3 +208,28 @@ nav > #nav-items{
     left: 64px;
     top: 159px;
 }
+footer{
+    background-color: aqua;
+    position: fixed;
+    bottom: 0;
+}
+footer > #send-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer > #send-list > div{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px;
+    width: 35px;
+}
+footer > #send-list > div > a > img{
+    width: 100%;
+}
+footer > #send-list > div > #type-message{
+    padding: 10px;
+    padding-right: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
