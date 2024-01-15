@@ -208,8 +208,11 @@ nav > #nav-items{
     left: 64px;
     top: 159px;
 }
+#chatting-section{
+    background-color: blue;
+}
 footer{
-    background-color: aqua;
+    background-color: rgb(223, 223, 223);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -217,7 +220,7 @@ footer{
 }
 footer > #send-list{
     display: grid;
-    grid-template-columns: repeat(20, 50px);
+    grid-template-columns: repeat(20, 1fr);
     grid-template-rows: 1fr;
 }
 #send-list > div{
@@ -231,8 +234,9 @@ footer > #send-list{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    padding-right: 550px;
+    padding: 5px 20px;
+    width: 650px;
+    height: 45px;
 }
 #send-list > .emoji{
     grid-area: 1/1/2/2;
@@ -242,6 +246,13 @@ footer > #send-list{
 }
 #send-list > .text-box{
     grid-area: 1/4/2/18;
+    align-items: center;
+    & > #type-message{
+        font-size: 20px;
+        font-weight: lighter;
+        border: none;
+        border-radius: 50px;
+    }
 }
 #send-list > .mic{
     grid-area: 1/19/2/20;
